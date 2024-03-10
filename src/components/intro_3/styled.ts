@@ -7,7 +7,7 @@ interface TextType {
 }
 
 export const Container = styled.div`
-   height: 98vh;
+   height: 90vh;
    width: 100%;
    background-color: #151825;
    display: flex;

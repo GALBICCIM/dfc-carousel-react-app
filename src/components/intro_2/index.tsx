@@ -1,14 +1,8 @@
-import { useEffect } from "react";
 import * as Style from "./styled";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const IntroSeconds = () => {
-   useEffect(() => {
-      AOS.init({ duration: 2500 });
-   }, []);
    return (
-      <Style.Container data-aos="fade-in" style={{ marginLeft: "30px" }}>
+      <Style.Container style={{ marginLeft: "20px" }}>
          <Style.Text size={22} color="#AFBAD0" font="KBOBold">
             보안과 개발에
          </Style.Text>

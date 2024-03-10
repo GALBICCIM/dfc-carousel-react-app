@@ -8,11 +8,11 @@ interface TextType {
 
 export const Hr = styled.hr`
    @media screen and (min-width: 360px) {
-      width: 350px;
+      width: 300px;
    }
 
    @media screen and (min-width: 1024px) {
-      width: 600px;
+      width: 550px;
    }
 `;
 
