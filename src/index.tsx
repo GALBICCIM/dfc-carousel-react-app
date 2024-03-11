@@ -5,8 +5,8 @@ import GlobalFont from "./fonts/GlobalFont";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
-   <React.StrictMode>
-      <GlobalFont />
-      <App />
-   </React.StrictMode>
+	<div>
+		<GlobalFont />
+		<App />
+	</div>
 );
